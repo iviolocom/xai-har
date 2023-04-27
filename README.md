@@ -3,7 +3,7 @@
 )
 ```
 xai-har
-  |--- Dataset
+  |--- dataset
     |--- *.csv
     |--- folders
 ```
