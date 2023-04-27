@@ -80,7 +80,6 @@ nohup python inference_each_set_video_right.py --cfg configs/Kinetics/X3D_L.yaml
 ```
 Then check logs inside the logs/ folder. it created logs file with csv together.
 
-```
 ,vid_id,action_idxs,action_idxs_counter,action_idxs_len,activities_idx,activities_counter,activities_len,action_idxs_prob,activities_prob
 0,0,"[8, 8, 8, 8, 11, 11, 8, 7, 7, 10, 7, 7, 12, 8, 8, 0, 8, 2, 2, 0]",48,147,"[8, 8, 8, 11, 7, 7, 7, 7, 0]",20,61,32.65,32.79
 1,1,"[7, 7, 1, 7, 2, 5, 1, 1, 1, 1, 13, 1, 1, 1, 1, 8, 8, 0]",108,170,"[7, 7, 1, 1, 1, 1, 1]",65,74,63.53,87.84
@@ -99,4 +98,3 @@ Then check logs inside the logs/ folder. it created logs file with csv together.
 14,14,"[7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]",86,174,"[8, 8, 8, 8, 8, 8, 8, 8, 8, 8]",33,80,49.43,41.25
 15,15,"[13, 13, 13, 0, 13, 8, 13, 13, 13, 13, 13, 0, 13, 13, 12, 13, 13, 13, 13, 12, 12, 12]",63,186,"[13, 13, 8, 13, 13, 13, 13, 13, 13, 13]",47,88,33.87,53.41
 
-```
